@@ -1,0 +1,8 @@
+cd..    //para salir del directorio         contra:alumnosinf*CUMe
+scp mapReducemmmfff.jar alumnosinf@158.49.96.124:/home/alumnosinf       subir archivo
+
+
+ssh alumnosinf@158.49.96.124
+sudo su – hadoop
+cd /home/alumnosinf
+hadoop jar mapReducemmmfff.jar /practica2/input /practica2/output_mfolguer.txt
